@@ -1,0 +1,541 @@
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kufam&display=swap");
+@import url("https://fonts.googleapis.com/earlyaccess/droidarabickufi.css");
+
+.cl{
+  height:100px;
+  background: #5851ff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);   
+ }
+ .pl-lg-5 {
+  padding-left: 400px !important;
+ }
+ .item{
+   height:100%;
+   background: red;
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+ }
+.navbar.second-navbar {
+  margin-top: 70px;
+  background: rgb(20, 52, 155) !important;
+  transition: all .5s ease-in-out;
+}
+
+.navbar.second-navbar.top-nav-collapse {
+  margin-top: 45px;
+}
+.container {
+  padding: 15px;
+}
+
+.btn-get-started{
+  cursor: pointer;
+}
+
+*{
+  font-family: 'Droid Arabic Kufi', serif;
+}
+
+.nav-item {
+  padding-right: 10px;
+}
+
+#navbarSupportedContent .nav-link {
+  color: #000;
+}
+
+#navbarSupportedContent .nav-link:hover {
+  color: #4bfebe;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+}
+
+.img-fluid {
+  max-width: 300px;
+  height: auto;
+}
+
+.navbar {
+  font-size: 1rem;
+  -webkit-box-shadow: 0 5px 6px -6px grey;
+  -moz-box-shadow: 0 5px 6px -6px grey;
+  box-shadow: 0 5px 6px -6px grey;
+}
+
+.background {
+  border-style: none;
+  background-image: url(../images/background.svg);
+  z-index: -999;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 600px;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+# Home Section
+--------------------------------------------------------------*/
+
+#category #basicExampleNav .navbar-nav .nav-item .nav-link {
+  font-size: 10px;
+  color: #000;
+  text-align: center;
+}
+
+#category #basicExampleNav .navbar-nav .nav-item .nav-link:hover {
+  text-align: center;
+  color: #4bfebe;
+}
+
+#landing {
+  margin-top: 50px;
+  margin-bottom: 200px;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  padding: 120px 0 0 0;
+}
+
+#landing:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#landing h1 {
+  margin: 0 0 20px 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 56px;
+  color: #000;
+  border-bottom: 4px solid #1f6cfa;
+}
+
+#landing h2 {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+#landing h3 {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 20px;
+}
+
+#landing .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #000;
+  border: 2px solid #000;
+  background: #fff;
+}
+
+#landing .btn-get-started:hover {
+  color: #fff;
+  border: 2px solid #00b1ff;
+  background: #00b1ff;
+}
+
+#landing .animated {
+  width: 270px;
+  height: 350px;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.empty {
+  width: 100%;
+  margin-top: 150px;
+  text-align: center;
+  color: grey;
+}
+
+/*--------------------------------------------------------------
+  # All Books Section
+--------------------------------------------------------------*/
+.booksTitle {
+  margin-top: 150px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#category {
+  color: #00b1ff;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#mostSelling {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(10, minmax(230px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  margin-bottom: 50px;
+}
+
+#mostSelling .card {
+  cursor: pointer;
+  height: 460px;
+  transition: 0.2s ease-in;
+}
+
+.heading{
+  color: red;
+}
+
+.heading span{
+  cursor: pointer;
+}
+
+.heading span i{
+  transition: 0.2s ease-in;
+}
+
+.heading span i:hover{
+  color: black;
+}
+
+#mostSelling .card:hover {
+  margin-top: -5px;
+  -webkit-box-shadow: 0px 0px 12px 2px #00b1ff;
+  -moz-box-shadow: 0px 0px 12px 2px #00b1ff;
+  box-shadow: 0px 0px 12px 2px #00b1ff;
+}
+
+#mostSelling .addCart {
+  text-align: center;
+}
+
+#mostSelling .card h5 {
+  margin-top: 20px;
+  height: 30px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#mostSelling .card p {
+  height: 20px;
+  font-size: 0.8rem;
+  color: grey;
+  text-align: center;
+}
+
+#mostSelling .card .price {
+  color: #00b1ff;
+  margin-top: 20px;
+  height: 20px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#mostSelling .btn-circle.btn-lg {
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 10px 0px 5px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+
+#allBooks {
+ /* display: -ms-grid;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  margin-bottom: 50px;
+}
+
+#allBooks .card {
+  cursor: pointer;
+  /*height: 460px;*/
+  transition: 0.2s ease-in;
+}
+
+#allBooks .card:hover {
+  margin-top: -5px;
+  -webkit-box-shadow: 0px 0px 12px 2px #00b1ff;
+  -moz-box-shadow: 0px 0px 12px 2px #00b1ff;
+  box-shadow: 0px 0px 12px 2px #00b1ff;
+}
+
+#allBooks .addCart {
+  text-align: left;
+}
+
+#allBooks .card h5 {
+  margin-top: 20px;
+  height: 30px;
+  font-size: 1rem;
+  text-align: left;
+  color: #343a40;
+}
+
+#allBooks .card p {
+  height: 20px;
+  font-size: 0.8rem;
+  color: grey;
+  text-align: left;
+}
+
+#allBooks .card .price {
+  color: #00b1ff;
+  margin-top: 20px;
+  height: 20px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+#allBooks .btn-circle.btn-lg {
+  margin-top: 7px;
+  width: 40px;
+  height: 40px;
+  padding: 5px 0px 5px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+
+/*--------------------------------------------------------------
+  # cart Section
+  --------------------------------------------------------------*/
+
+.delete {
+  margin-left: 5px;
+}
+
+.delete i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+  # Product Section
+  --------------------------------------------------------------*/
+
+#author-info img {
+  align-self: center;
+  border-radius: 150px;
+  width: 200px;
+  height: 200px;
+}
+
+/*--------------------------------------------------------------
+  # About Section
+--------------------------------------------------------------*/
+
+.about-img img {
+  height: 100%;
+  width: 100%;
+}
+
+#privacy, #about {
+  margin-top: 200px;
+}
+
+#us {
+  margin-top: 400px;
+}
+#about h1 {
+  margin: 0 0 20px 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 56px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#about h4 {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+/*--------------------------------------------------------------
+  # footer Section
+  --------------------------------------------------------------*/
+footer {
+  -webkit-box-shadow: 0px -11px 8px -6px rgba(209, 207, 209, 1);
+  -moz-box-shadow: 0px -11px 8px -6px rgba(209, 207, 209, 1);
+  box-shadow: 0px -11px 8px -6px rgba(209, 207, 209, 1);
+  width: 100%;
+  height: 20px;
+}
+.page-footer{
+  width: 100%;
+  height: 15px;
+}
+footer h5 {
+  font-size: 1rem;
+}
+
+/*--------------------------------------------------------------
+  # keyframes Section
+  --------------------------------------------------------------*/
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@-webkit-keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
+@-webkit-keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@-webkit-keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+/*--------------------------------------------------------------
+  # Responsive Section
+  --------------------------------------------------------------*/
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+  #landing .animated {
+    width: 170px;
+    height: 250px;
+  }
+   .pl-lg-5 {
+    padding-left: 0px !important;
+   }
+  .data {
+    width: 100%;
+    text-align: center;
+  }
+
+  #landing h1 {
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000;
+    border-bottom: 4px solid #1f6cfa;
+  }
+  
+  #landing h2 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  #landing h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+  }
+
+  #landing {
+    height: 600px;
+  }
+
+  .background {
+    height: 900px;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .navSmall{
+    display: none;
+  } 
+  
+  .logo {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    content: url(./images/logo2.jpg) no-repeat;
+    /*width: 180px; /* Width of new image */
+    height: 70%; /* Height of new image */
+    /*padding-left: 180px; /* Equal to width of new image */
+  }
+  
+}
